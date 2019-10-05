@@ -11,10 +11,29 @@ class TestFizzBuzz {
 	}
 	
 	@Test
-	void test() {
-		setInput();
-		assertEquals(1, integer);
+	void test1() {
+		fizzBuzz.setInput();
+		assertEquals("1", fizzBuzz.getInput());
 		
 	}
+	
+	@Test
+	void test2() {
+		fizzBuzz.setInput();
+		assertEquals("2", fizzBuzz.getInput());
+	}
+
+	@Test
+	void test3() {
+		fizzBuzz.setInput();
+		assertEquals("Fizz", fizzBuzz.getInput());
+	}
+	
+	@Test
+	void test4() {
+		fizzBuzz.setInput();
+		assertEquals("4", fizzBuzz.getInput());
+	}
+	
 
 }
