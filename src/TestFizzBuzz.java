@@ -11,10 +11,16 @@ class TestFizzBuzz {
 	}
 	
 	@Test
-	void test() {
+	void test1() {
 		setInput();
 		assertEquals(1, integer);
 		
+	}
+	
+	@Test
+	void test2() {
+		setInput();
+		assertEquals(2, integer);
 	}
 
 }
