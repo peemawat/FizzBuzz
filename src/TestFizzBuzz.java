@@ -4,11 +4,7 @@ import org.junit.jupiter.api.Test;
 
 class TestFizzBuzz {
 	FizzBuzz fizzBuzz = new FizzBuzz();
-	private int integer = 0;
-	public void setInput() {
-		fizzBuzz.setInt(1);
-		integer = fizzBuzz.getInt();
-	}
+	
 	
 	@Test
 	void test1() {
@@ -33,6 +29,12 @@ class TestFizzBuzz {
 	void test4() {
 		fizzBuzz.setInput();
 		assertEquals("4", fizzBuzz.getInput());
+	}
+	
+	@Test
+	void test5() {
+		fizzBuzz.setInput();
+		assertEquals("Buzz", fizzBuzz.getInput());
 	}
 	
 
