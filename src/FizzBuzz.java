@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class FizzBuzz {
 	private static int index = 0,input = 0;
@@ -13,17 +13,14 @@ public class FizzBuzz {
 		return input+"";
 		}
 	}
-		public static int setInput() {
-			while(index < 15) {
+		public static void setInput() {
+			while(index <= 15) {
 				index++;
 				input++;
 				if(input == index) {
 					break;
-				}
-				
-				
+				}	
 			}
-			return input;
 		}
 
 }
