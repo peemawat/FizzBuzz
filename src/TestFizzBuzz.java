@@ -70,7 +70,7 @@ class TestFizzBuzz {
 	}
 	@Test
 	void test12() {
-		fizzBuzz.setInput();
+		fizzBuzz.setInput(12);
 		assertEquals("Fizz", fizzBuzz.getInput());
 	}
 }
